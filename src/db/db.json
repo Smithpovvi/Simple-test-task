@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1_bananas",
+    "title": "Bananas",
+    "description": "Yellow fruits from Africa",
+    "price": 10
+  },
+  {
+    "id": "2_book",
+    "title": "Book",
+    "description": "Awersome book for your library",
+    "price": 14
+  },
+  {
+    "id": "3_videogame",
+    "title": "Videogame",
+    "description": "Amazing videogame for your pleasure time",
+    "price": 12
+  },
+  {
+    "id": "4_notebook",
+    "title": "Notebook",
+    "description": "A 30-page notebook to record your thoughts",
+    "price": 22
+  },
+  {
+    "id": "5_laptop",
+    "title": "Laptop",
+    "description": "Moders technology Laptop for yuor hacking!",
+    "price": 54
+  }
+]

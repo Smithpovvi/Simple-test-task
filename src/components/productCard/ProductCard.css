@@ -1,0 +1,26 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--tertiary);
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    h3 {
+        margin-block: 5px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
