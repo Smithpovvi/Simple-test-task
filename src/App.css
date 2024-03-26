@@ -5,7 +5,7 @@
     padding: 20px;
 
     .loader {
-        border: 16px solid #f3f3f3;
+        border: 16px solid var(--secondary);
         border-top: 16px solid var(--primary-highlight);
         border-radius: 50%;
         width: 60px;
@@ -13,8 +13,8 @@
         animation: spin 700ms linear infinite;
         position: fixed;
         z-index: 5;
-        top: 50%;
-        left: 50%;
+        top: calc(50% - 30px);
+        left: calc(50% - 30px);
     }
 }
 
