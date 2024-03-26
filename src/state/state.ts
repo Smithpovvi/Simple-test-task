@@ -1,7 +1,7 @@
 import { IAppState } from "./types.ts";
 import { initState } from "./reducer.ts";
 
-export class Selectors {
+export class State implements IAppState {
   get products() {
     return this.state.products || [];
   }

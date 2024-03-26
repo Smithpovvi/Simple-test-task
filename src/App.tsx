@@ -6,7 +6,7 @@ import { fetchProductsStarted } from "./state/actions.ts";
 
 const App = () => {
   const {
-    selectors: { isLoading, products, isInit },
+    state: { isLoading, products, isInit },
     dispatch,
   } = useContext(AppContext);
   const fetchProducts = () => dispatch(fetchProductsStarted());

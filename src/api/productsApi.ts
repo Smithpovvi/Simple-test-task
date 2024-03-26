@@ -1,4 +1,4 @@
-import data from "../db/db.json";
+import data from "./db/db.json";
 import getRandomNumber from "../utils/getRandomNumber.ts";
 import { v4 as uuid } from "uuid";
 

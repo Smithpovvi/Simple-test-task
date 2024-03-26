@@ -22,7 +22,7 @@ const ProductsList: React.FC = React.memo(() => {
     mode: "onSubmit",
   });
   const {
-    selectors: { products, isLoading },
+    state: { products, isLoading },
     dispatch,
   } = useContext(AppContext);
   const onSubmit: SubmitHandler<TProductForm> = useCallback(
